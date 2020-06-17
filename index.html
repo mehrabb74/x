@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Particle Login</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="nav">
+        <div class="nav-btn">
+            <a class="nav-btn-a" href="#">HOME</a>
+            <!--<a class="nav-btn-a" href="#">PAGE</a>-->
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <!--we change https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js thi a locally file -->
+    <script>
+        particlesJS.load('particles-js', 'particles.json' , function(){
+            console.log('particles.json loaded')
+        })
+    </script>
+</body>
+</html>

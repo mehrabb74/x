@@ -1,0 +1,78 @@
+:root{
+    --primary :#00525a;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html,body{ 
+	width:100vw;
+	height:100vh;
+}
+
+#particles-js{
+    background: var(--primary);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#nav{
+    background-color: var(--primary);
+    border: black solid 1px;
+    width: 100%;
+    height: 2em;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    display: flex;
+}
+
+.nav-btn{
+    height: 100%;
+    line-height: 2em;
+}
+
+.nav-btn-a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#login {
+    background: #fff;
+    opacity: 0.9;
+    padding: 2em;
+    border: #ccc 2px solid;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#login input[type="text"], #login input[type="password"]{
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px #ccc solid;
+}
+*/
